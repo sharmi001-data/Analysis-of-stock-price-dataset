@@ -1,5 +1,4 @@
-Dataset Information-
-
+📊 Dataset Information
 The dataset includes stock data from several well-known companies such as Tesla, Apple, Amazon, Microsoft, Coca-Cola, Nvidia, and more. It contains daily records of prices and turnover for these companies.
 
 Technologies and Libraries Used-
