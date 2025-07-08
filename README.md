@@ -1,55 +1,62 @@
-📊 Dataset Information
-The dataset includes stock data from several well-known companies such as Tesla, Apple, Amazon, Microsoft, Coca-Cola, Nvidia, and more. It contains daily records of prices and turnover for these companies.
+#  Stock Price Analysis Using Python
 
-Technologies and Libraries Used-
+This project analyzes stock market performance of various companies using Python. It provides insightful visualizations and statistics to understand turnover, closing price trends, and trading activity over time. The goal is to highlight how different companies behave in the stock market in terms of liquidity and price behavior.
 
-pandas – data manipulation
+---
 
-matplotlib, seaborn – data visualization
+## Dataset Information
 
-numpy – numerical operations
+The dataset includes stock data from several well-known companies such as **Tesla, Apple, Amazon, Microsoft, Coca-Cola, Nvidia**, and more. It contains daily records of prices and turnover for these companies.
 
-plotly – interactive graphs
 
-Jupyter Notebook / Google Colab – development environment
+---
 
-Key Analyses Performed-
+##  Technologies and Libraries Used
 
-Average Turnover Analysis per Company
-Identified companies with the highest trading activity.
+- `pandas` – data manipulation  
+- `numpy` – numerical operations  
+- `matplotlib` – data visualization  
+- `seaborn` – statistical plots  
+- `plotly` – interactive charts  
+- Jupyter Notebook / Google Colab – development environment
 
-Closing Price Trends Over Time
-Visualized how stock prices changed year by year.
+---
 
-Volatility and Market Behavior
-Noted that tech companies and big brands dominate in both price and turnover.
+##  Key Analyses Performed
 
-Skewed Market Participation
-Discovered that a few major players (like Tesla, Apple) handle a significant portion of trading activity, while others show low turnover.
+- **Average Turnover Analysis per Company**  
+  Identified companies with the highest trading activity.
 
-How to Run the Project-
+- **Closing Price Trends Over Time**  
+  Visualized how stock prices changed year by year.
 
-Clone the repository or download the .ipynb file.
+- **Volatility and Market Behavior**  
+  Highlighted that tech companies and big brands dominate in both price and turnover.
 
-Open the notebook in Google Colab, Jupyter Notebook, or VS Code.
+- **Skewed Market Participation**  
+  Discovered that a few major players (like Tesla, Apple) handle a significant portion of trading activity, while others show low turnover.
 
-Run the cells one by one to view analysis and visualizations.
+---
 
-Ensure required libraries (pandas, matplotlib, seaborn, plotly) are installed.
+## How to Run the Project
 
-Author-
+1. Clone the repository or download the `.ipynb` file.
+2. Open the notebook in **Google Colab**, **Jupyter Notebook**, or **VS Code**.
+3. Run the cells one by one to view analysis and visualizations.
+4. Ensure required libraries (`pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly`) are installed.
 
-Sharmistha Das
+---
 
-Aspiring Data Analyst | Passionate about data visualization and insights
-Feel free to connect on LinkedIn (Add your profile link if you'd like)
+##  Author
 
-📁 Project Structure
+**Sharmistha Das**  
+Aspiring Data Analyst | Passionate about data visualization and insights  
+Feel free to connect on [LinkedIn](#) *(add your profile link if you'd like)*
 
-python
-Copy
-Edit
+---
+
+## 📁 Project Structure
+```text
 📂 Analysis_of_stock_dataset_project/
 ├── Analysis_of_stock_dataset_project.ipynb
 ├── README.md
-└── (Optional) dataset.csv
