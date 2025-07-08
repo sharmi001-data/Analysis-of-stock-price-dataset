@@ -51,7 +51,7 @@ The dataset includes stock data from several well-known companies such as **Tesl
 
 **Sharmistha Das**  
 Aspiring Data Analyst | Passionate about data visualization and insights  
-Feel free to connect on [LinkedIn]([#](https://www.linkedin.com/in/sharmishtha-das8/)) 
+Feel free to connect on [LinkedIn](https://www.linkedin.com/in/sharmishtha-das8/)
 
 ---
 
