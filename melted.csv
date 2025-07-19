@@ -1,0 +1,184 @@
+,Brand_Name,Period,Fluctuation
+0,3m,Before_covid,0.029717424980211005
+1,adidas,Before_covid,0.076130352427255
+2,adobe,Before_covid,0.0870673999789444
+3,airbnb,Before_covid,
+4,amazon,Before_covid,0.09691521480782662
+5,amd,Before_covid,-0.07376904124721992
+6,american eagle outfitters,Before_covid,0.028318284309055326
+7,american express,Before_covid,0.032313464462662644
+8,apple,Before_covid,0.02714017773386519
+9,block,Before_covid,0.07931359084926973
+10,bmw group,Before_covid,0.02837694987643756
+11,chipotle,Before_covid,0.053196937127964854
+12,cisco,Before_covid,0.002080619580008724
+13,coinbase,Before_covid,
+14,colgate palmolive,Before_covid,0.05085079968202389
+15,costco,Before_covid,0.07194414949853505
+16,crocs,Before_covid,0.0405968573594263
+17,delta air lines,Before_covid,-0.02384591268583326
+18,fedex,Before_covid,0.06231023913966844
+19,foot locker,Before_covid,0.04390438500748372
+20,google,Before_covid,-0.015575549476795828
+21,hershey company,Before_covid,0.07478171215899541
+22,hilton,Before_covid,0.009440826105185011
+23,honda,Before_covid,0.008843670321965095
+24,johnson & johnson,Before_covid,0.027785198492637147
+25,jpmorgan chase & co,Before_covid,0.019165899092889377
+26,logitech,Before_covid,0.029552542379916488
+27,lvmh,Before_covid,0.10670010809845808
+28,marriott,Before_covid,0.0928218758166261
+29,mastercard,Before_covid,0.07528966974261334
+30,mcdonald's,Before_covid,0.04229038079927983
+31,microsoft,Before_covid,0.018099976314554404
+32,netflix,Before_covid,0.08674699727218782
+33,nike,Before_covid,0.0710617802934483
+34,nintendo,Before_covid,0.03912399477997581
+35,nordstrom,Before_covid,0.08989600870751766
+36,nvidia,Before_covid,0.03429091791534998
+37,peloton,Before_covid,-0.09128696385043968
+38,philips,Before_covid,0.03842590040719027
+39,pinterest,Before_covid,-0.12184719941087462
+40,porsche,Before_covid,0.09186818018672477
+41,procter & gamble,Before_covid,0.06692829280982426
+42,puma,Before_covid,-0.0729681225092083
+43,roblox,Before_covid,
+44,salesforce / slack,Before_covid,0.1108173533990269
+45,shopify,Before_covid,0.10883194773754457
+46,southwest airlines,Before_covid,0.020705403259198136
+47,spotify,Before_covid,0.0342766820225681
+48,starbucks,Before_covid,0.08963181880122748
+49,target,Before_covid,0.017770089920933277
+50,tesla,Before_covid,0.01472689589884438
+51,the coca-cola company,Before_covid,0.040729997323368565
+52,the home depot,Before_covid,0.0286638487049216
+53,the walt disney company,Before_covid,0.04690091168007464
+54,toyota,Before_covid,0.0034607819866721923
+55,uber,Before_covid,-0.1901429039514975
+56,ubisoft,Before_covid,-0.02150130410421186
+57,unilever,Before_covid,0.08136779767252508
+58,visa,Before_covid,0.05173216031754919
+59,zoom video communications,Before_covid,-0.08999970567367208
+60,zoominfo,Before_covid,
+61,3m,During_covid,-0.07196633553799926
+62,adidas,During_covid,-0.03765774183053589
+63,adobe,During_covid,0.0029167122710302895
+64,airbnb,During_covid,0.03365107569380639
+65,amazon,During_covid,-0.04829182729973141
+66,amd,During_covid,-0.008398539547579537
+67,american eagle outfitters,During_covid,0.03749191982473447
+68,american express,During_covid,-0.0328860572156527
+69,apple,During_covid,0.0937379608530932
+70,block,During_covid,0.0020307160471240092
+71,bmw group,During_covid,0.017288914899029204
+72,chipotle,During_covid,-0.009549651795853265
+73,cisco,During_covid,0.053550743834652643
+74,coinbase,During_covid,-0.1361866411899143
+75,colgate palmolive,During_covid,0.01455675985681191
+76,costco,During_covid,0.05981477737185615
+77,crocs,During_covid,0.054812331026541344
+78,delta air lines,During_covid,-0.1849485223543425
+79,fedex,During_covid,-0.0066471008847839375
+80,foot locker,During_covid,0.005495248816429593
+81,google,During_covid,0.040637820509448135
+82,hershey company,During_covid,0.024917692612263113
+83,hilton,During_covid,-0.02615410437847898
+84,honda,During_covid,-0.034212641920785734
+85,johnson & johnson,During_covid,0.023366958224295995
+86,jpmorgan chase & co,During_covid,-0.028883003026371933
+87,logitech,During_covid,0.07343571705478875
+88,lvmh,During_covid,0.15657255728124692
+89,marriott,During_covid,-0.04272106826119272
+90,mastercard,During_covid,0.005734984321789187
+91,mcdonald's,During_covid,0.030379820712235564
+92,microsoft,During_covid,0.04910433959497147
+93,netflix,During_covid,0.06983721733107331
+94,nike,During_covid,0.0005417981812808262
+95,nintendo,During_covid,0.05651427033096137
+96,nordstrom,During_covid,-0.022375454965524108
+97,nvidia,During_covid,0.09131865717326758
+98,peloton,During_covid,0.09216778687967579
+99,philips,During_covid,0.02881962161077417
+100,pinterest,During_covid,0.12766557793916547
+101,porsche,During_covid,0.03409889757083892
+102,procter & gamble,During_covid,0.06301886497645778
+103,puma,During_covid,-0.08567614363997995
+104,roblox,During_covid,0.20280093880655722
+105,salesforce / slack,During_covid,-0.009042295405175163
+106,shopify,During_covid,0.03447549007487265
+107,southwest airlines,During_covid,-0.1328982693611915
+108,spotify,During_covid,0.029774750542835376
+109,starbucks,During_covid,0.01899477674819651
+110,target,During_covid,0.06718883055871837
+111,tesla,During_covid,-0.006182405667889457
+112,the coca-cola company,During_covid,-0.036335718429827905
+113,the home depot,During_covid,0.08236846441420696
+114,the walt disney company,During_covid,-0.08794430964495188
+115,toyota,During_covid,-0.058243434906367623
+116,uber,During_covid,-0.030933237365256754
+117,ubisoft,During_covid,-0.09084619485812041
+118,unilever,During_covid,0.04002086994267121
+119,visa,During_covid,0.005604806871038131
+120,zoom video communications,During_covid,0.09407574930667822
+121,zoominfo,During_covid,-0.04836592333065738
+122,3m,After_covid,0.04433982807672765
+123,adidas,After_covid,0.10944853734518933
+124,adobe,After_covid,0.04940622864343167
+125,airbnb,After_covid,0.13517429718537888
+126,amazon,After_covid,0.06740133993166944
+127,amd,After_covid,-0.014223327341677371
+128,american eagle outfitters,After_covid,0.017688596099704308
+129,american express,After_covid,0.07747838611608762
+130,apple,After_covid,0.13896275982525036
+131,block,After_covid,0.04493249344167265
+132,bmw group,After_covid,0.007082871602290109
+133,chipotle,After_covid,0.020943295137924003
+134,cisco,After_covid,0.06659155586997843
+135,coinbase,After_covid,0.2555068223490653
+136,colgate palmolive,After_covid,0.056027401342164
+137,costco,After_covid,0.08965729700296599
+138,crocs,After_covid,-0.12613031262160737
+139,delta air lines,After_covid,0.02263961418931224
+140,fedex,After_covid,0.06195055431757468
+141,foot locker,After_covid,0.05959401505089978
+142,google,After_covid,0.13818842743678925
+143,hershey company,After_covid,0.0010100558855385038
+144,hilton,After_covid,0.07429092631942813
+145,honda,After_covid,-0.021744472406833717
+146,johnson & johnson,After_covid,0.030625938169821863
+147,jpmorgan chase & co,After_covid,0.08683565152117226
+148,logitech,After_covid,0.11887323054998393
+149,lvmh,After_covid,0.06826661304264758
+150,marriott,After_covid,0.08286997023072384
+151,mastercard,After_covid,0.05673650615467077
+152,mcdonald's,After_covid,0.03882830528363563
+153,microsoft,After_covid,0.03612798869651079
+154,netflix,After_covid,0.029452492947972267
+155,nike,After_covid,0.018893647809490786
+156,nintendo,After_covid,0.034823911778437654
+157,nordstrom,After_covid,0.09742332493600328
+158,nvidia,After_covid,0.09183095345156868
+159,peloton,After_covid,0.010265519634298004
+160,philips,After_covid,0.08566792593069568
+161,pinterest,After_covid,-0.025885376756584498
+162,porsche,After_covid,0.06387850151881241
+163,procter & gamble,After_covid,0.06725773509333406
+164,puma,After_covid,-0.3276338118749398
+165,roblox,After_covid,0.18089244479134237
+166,salesforce / slack,After_covid,0.09173383506054218
+167,shopify,After_covid,0.12536348731623104
+168,southwest airlines,After_covid,0.05710705409132817
+169,spotify,After_covid,0.16150005252474336
+170,starbucks,After_covid,0.06334771110143288
+171,target,After_covid,-0.06551047757343297
+172,tesla,After_covid,0.13959217679498384
+173,the coca-cola company,After_covid,0.02156534468970826
+174,the home depot,After_covid,0.039396825960842013
+175,the walt disney company,After_covid,0.07737440295886816
+176,toyota,After_covid,-0.011973038092203212
+177,uber,After_covid,0.13614724563002528
+178,ubisoft,After_covid,0.24612958277891628
+179,unilever,After_covid,0.0018676947549209854
+180,visa,After_covid,0.08879185989603297
+181,zoom video communications,After_covid,0.11115535426299267
+182,zoominfo,After_covid,-0.02778884969065226
