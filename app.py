@@ -10,6 +10,7 @@ st.title(" Stock Price Analysis Project")
 st.markdown("**Author: Sharmistha Das**")
 st.divider()
 
+#load the preprocessed dataset
 turnover_df = pd.read_csv("avg_turnover_per_company.csv")
 st.markdown("""
 ###  Average Turnover per Company
@@ -28,7 +29,7 @@ highlighting their dominance and popularity in the market.
 Lower turnover brands may indicate niche investments or less frequent trades.
 """)
 
-
+#plot
 plt.figure(figsize=(12,16))
 sns.barplot(data=turnover_df, x="Turnover", y="Brand_Name", palette="viridis")
 plt.title("Average Turnover per Company")
@@ -48,9 +49,10 @@ This chart highlights the **top 5 companies** with the highest average turnover:
 
 This ranking can help investors target high-liquidity stocks for better execution efficiency.
 """)
-
+#load the preprocessed dataset
 top_5_df = pd.read_csv("top_5_companies.csv")
 
+#plot
 plt.figure(figsize=(8, 4))
 sns.barplot(data=top_5_df, x="Turnover", y="Brand_Name",palette="Set1")
 plt.title("Top 5 Companies by Average Turnover")
@@ -71,8 +73,10 @@ This line chart visualizes turnover growth trends **from 2017 to 2019**:
 This analysis helps pinpoint which companies were expanding vs. stagnating right before the pandemic.
 """)
 
+#load the preprocessed dataset
 yoy_growth_before_covid = pd.read_csv("yoy_df.csv")
 
+#plot
 plt.figure(figsize=(12, 10))
 sns.lineplot(data=yoy_growth_before_covid, x="year", y="YoY_Growth (%)", hue="Brand_Name", marker="o")
 plt.title("Year-over-Year Growth in Turnover by Brand (Before COVID)")
@@ -95,8 +99,10 @@ This chart tracks turnover trends **from 2021 to 2025**:
 The data shows a post-COVID rebound followed by rebalancing in growth.
 """)
 
+#load the preprocessed dataset
 yoy_growth_after_covid = pd.read_csv("YoY_df.csv")
 
+#plot
 plt.figure(figsize=(12, 12))
 sns.lineplot(data=yoy_growth_after_covid, x="year", y="YoY_Growth (%)", hue="Brand_Name", marker="o")
 plt.title("Year-over-Year Growth in Turnover by Brand (After COVID)")
@@ -118,8 +124,10 @@ This pie chart shows how much each brand contributes to total average turnover.
 This emphasizes a highly concentrated market, with only a few brands holding most of the trading power.
 """)
 
+#load the preprocessed dataset
 contribution_avg_turnover = pd.read_csv("turnover_per_company.csv")
 
+#plot
 fig = px.pie(
     contribution_avg_turnover,
     names="Brand_Name",
@@ -147,7 +155,7 @@ Key observations:
 This visualization reveals how different companies adapted or struggled through market instability across pandemic phases.
 """)
 
-# Load preprocessed dataset
+# Load the preprocessed dataset
 final_df= pd.read_csv("melted.csv")
 
 # Plot using seaborn
@@ -196,7 +204,7 @@ This bar chart represents the **average daily return of stock prices** across di
 This visualization gives an overview of how different countries perform in terms of **stock return trends**.
 """)
 
-# Load the dataset
+# Load the preprocessed dataset
 country_wise_behaviour = pd.read_csv("avg_return_per_country.csv")
 
 # Plot
@@ -220,7 +228,7 @@ This line chart visualizes the **average yearly stock closing price** across dif
 This chart highlights how industry trends evolve and how certain sectors are more **volatile or growth-driven** than others.
 """)
 
-# Load data
+# Load the preprocessed dataset
 avg_per_industry = pd.read_csv("avg_over_year_per_industry.csv")
 
 # Plot
@@ -245,7 +253,7 @@ This bar chart focuses on the **closing price trends across industries** from **
 This visualization captures how different sectors performed in the **post-COVID market landscape**.
 """)
 
-# Load data
+# Load the preprocessed data
 df = pd.read_csv("avg_over_year_per_industry.csv")
 
 filtered = df[(df["year"] >= 2020) & (df["year"] <= 2025)]
@@ -260,6 +268,61 @@ plt.xticks(rotation=45)
 plt.legend(title="Industry", bbox_to_anchor=(1.02, 1), loc="upper left")
 plt.tight_layout()
 st.pyplot(plt.gcf())
+
+st.markdown("""
+###  Correlation Matrix Heatmap
+
+This heatmap visualizes the **correlation** between various numerical stock features.
+
+- **Dark colors** indicate strong **positive** or **negative** relationships.
+- Features like **Open, Close, High, and Low** show very **high correlations**, indicating they move closely together.
+- **Volume** has a **weaker correlation** with price-based features, highlighting its relatively independent nature.
+
+This chart helps us understand the **internal dependencies** within stock attributes.
+""")
+
+# Load the correlation matrix
+import numpy as np
+cor_df = pd.read_csv("cor.csv", index_col=0)
+
+# Plot
+plt.figure(figsize=(10, 6))
+sns.heatmap(cor_df, annot=True, cmap="viridis", fmt=".2f", linewidths=0.5)
+plt.title("Correlation Matrix Heatmap")
+plt.tight_layout()
+st.pyplot(plt.gcf())
+
+st.markdown("""
+###  Active Years of Each Brand
+
+This horizontal bar chart visualizes how long each brand has remained active in the stock market dataset.
+
+- Brands like **3M**, **Adobe**, **Amazon**, and **Apple** have had a **long-standing presence**, consistently active for over 25 years.
+- Newer companies like **Roblox**, **Coinbase**, **Airbnb**, and **ZoomInfo** show **shorter active spans**—less than 6 years.
+
+This chart provides a strong indicator of **market maturity vs. newer entrants**, useful for trend and risk analysis.
+""")
+# Load the preprocessed dataset
+brands_active_years = pd.read_csv("active_years.csv")
+
+brands_active_yearsd= brands_active_years.sort_values(by="Active_Years", ascending=False)
+
+#plot
+fig = px.bar(
+    brands_active_years,
+    x="Active_Years",
+    y="Brand_Name",
+    orientation="h",
+    color="Active_Years",
+    color_continuous_scale="viridis",
+    title="Active Years of Each Brand",
+    labels={"Active_Years": "Number of Years", "Brand_Name": "Brand"}
+)
+
+fig.update_layout(height=1000)
+st.plotly_chart(fig)
+
+
 
 
 
