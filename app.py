@@ -11,7 +11,7 @@ st.markdown("**Author: Sharmistha Das**")
 st.divider()
 
 #load the preprocessed dataset
-turnover_df = pd.read_csv("avg_turnover_per_company.csv")
+turnover_df = pd.read_csv("./Data/avg_turnover_per_company.csv")
 st.markdown("""
 ###  Average Turnover per Company
 
@@ -50,7 +50,7 @@ This chart highlights the **top 5 companies** with the highest average turnover:
 This ranking can help investors target high-liquidity stocks for better execution efficiency.
 """)
 #load the preprocessed dataset
-top_5_df = pd.read_csv("top_5_companies.csv")
+top_5_df = pd.read_csv("./Data/top_5_companies.csv")
 
 #plot
 plt.figure(figsize=(8, 4))
@@ -74,7 +74,7 @@ This analysis helps pinpoint which companies were expanding vs. stagnating right
 """)
 
 #load the preprocessed dataset
-yoy_growth_before_covid = pd.read_csv("yoy_df.csv")
+yoy_growth_before_covid = pd.read_csv("./Data/yoy_df.csv")
 
 #plot
 plt.figure(figsize=(12, 10))
@@ -100,7 +100,7 @@ The data shows a post-COVID rebound followed by rebalancing in growth.
 """)
 
 #load the preprocessed dataset
-yoy_growth_after_covid = pd.read_csv("YoY_df.csv")
+yoy_growth_after_covid = pd.read_csv("./Data/YoY_df.csv")
 
 #plot
 plt.figure(figsize=(12, 12))
@@ -125,7 +125,7 @@ This emphasizes a highly concentrated market, with only a few brands holding mos
 """)
 
 #load the preprocessed dataset
-contribution_avg_turnover = pd.read_csv("turnover_per_company.csv")
+contribution_avg_turnover = pd.read_csv("./Data/turnover_per_company.csv")
 
 #plot
 fig = px.pie(
@@ -156,7 +156,7 @@ This visualization reveals how different companies adapted or struggled through 
 """)
 
 # Load the preprocessed dataset
-final_df= pd.read_csv("melted.csv")
+final_df= pd.read_csv("./Data/melted.csv")
 
 # Plot using seaborn
 plt.figure(figsize=(14, 20))
@@ -181,7 +181,7 @@ Higher volatility may imply greater opportunity — but also higher risk.
 """)
 
 # Load the dataset with standard deviation values
-voladility = pd.read_csv("std_daily_returns.csv", index_col=0)
+voladility = pd.read_csv("./Data/std_daily_returns.csv", index_col=0)
 
 # Plot the volatility
 plt.figure(figsize=(14, 16))
@@ -205,7 +205,7 @@ This visualization gives an overview of how different countries perform in terms
 """)
 
 # Load the preprocessed dataset
-country_wise_behaviour = pd.read_csv("avg_return_per_country.csv")
+country_wise_behaviour = pd.read_csv("./Data/avg_return_per_country.csv")
 
 # Plot
 plt.figure(figsize=(8, 6))
@@ -229,7 +229,7 @@ This chart highlights how industry trends evolve and how certain sectors are mor
 """)
 
 # Load the preprocessed dataset
-avg_per_industry = pd.read_csv("avg_over_year_per_industry.csv")
+avg_per_industry = pd.read_csv("./Data/avg_over_year_per_industry.csv")
 
 # Plot
 plt.figure(figsize=(14, 8))
@@ -254,7 +254,7 @@ This visualization captures how different sectors performed in the **post-COVID 
 """)
 
 # Load the preprocessed data
-df = pd.read_csv("avg_over_year_per_industry.csv")
+df = pd.read_csv("./Data/avg_over_year_per_industry.csv")
 
 filtered = df[(df["year"] >= 2020) & (df["year"] <= 2025)]
 
@@ -283,7 +283,7 @@ This chart helps us understand the **internal dependencies** within stock attrib
 
 # Load the correlation matrix
 import numpy as np
-cor_df = pd.read_csv("cor.csv", index_col=0)
+cor_df = pd.read_csv("./Data/cor.csv", index_col=0)
 
 # Plot
 plt.figure(figsize=(10, 6))
@@ -303,7 +303,7 @@ This horizontal bar chart visualizes how long each brand has remained active in 
 This chart provides a strong indicator of **market maturity vs. newer entrants**, useful for trend and risk analysis.
 """)
 # Load the preprocessed dataset
-brands_active_years = pd.read_csv("active_years.csv")
+brands_active_years = pd.read_csv("./Data/active_years.csv")
 
 brands_active_yearsd= brands_active_years.sort_values(by="Active_Years", ascending=False)
 
