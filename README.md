@@ -58,5 +58,8 @@ Feel free to connect on [LinkedIn](https://www.linkedin.com/in/sharmishtha-das8/
 ## 📁 Project Structure
 ```text
 📂 Analysis_of_stock_dataset_project/
+├──📂 Data
 ├── Analysis_of_stock_dataset_project.ipynb
+├── app.py
 ├── README.md
+├── Requirments.txt
