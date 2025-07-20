@@ -74,7 +74,7 @@ This analysis helps pinpoint which companies were expanding vs. stagnating right
 """)
 
 #load the preprocessed dataset
-yoy_growth_before_covid = pd.read_csv("./Data/yoy_df.csv")
+yoy_growth_before_covid = pd.read_csv("./Data/yoy_df2.csv")
 
 #plot
 plt.figure(figsize=(12, 10))
